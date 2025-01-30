@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import shap
 import random
 
-model = joblib.load('model/random_forest_churn_model.pkl')
+model = joblib.load('models/random_forest_churn_model.pkl')
 feature_importance = model.feature_importances_
 
 feature_names = [
